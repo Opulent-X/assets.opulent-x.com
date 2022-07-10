@@ -41,6 +41,7 @@
     <!-- charts C3 CSS
 		============================================ -->
     <link rel="stylesheet" href="css/c3.min.css">
+    <link rel="stylesheet" href="css/charts.css">
     <!-- forms CSS
 		============================================ -->
     <link rel="stylesheet" href="css/form/all-type-forms.css">
@@ -960,47 +961,37 @@
                                     <ul class="message-list-menu">
                                         <li><span class="message-serial message-cl-one">1</span> <span class="message-info">Opulent-X Token (OPXT)</span> <span class="message-time">Token</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-two">2</span> <span class="message-info">Opulent-X Utility (OPXU)</span> <span class="message-time">Token</span>
+                                        <li><span class="message-serial message-cl-one">2</span> <span class="message-info">Opulent-X Utility (OPXU)</span> <span class="message-time">Token</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-three">3</span> <span class="message-info">Opulent-X Rewards (OPXR)</span> <span class="message-time">Token</span>
+                                        <li><span class="message-serial message-cl-one">3</span> <span class="message-info">Opulent-X Rewards (OPXR)</span> <span class="message-time">Token</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-four">4</span> <span class="message-info">Opulent-X Synergies (OXYN)</span> <span class="message-time">Gas</span>
+                                        <li><span class="message-serial message-cl-one">4</span> <span class="message-info">Opulent-X Synergies (OXYN)</span> <span class="message-time">Gas</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-five">5</span> <span class="message-info">Opulent-X Realm (OXRM)</span> <span class="message-time">Innovations</span>
+                                        <li><span class="message-serial message-cl-one">5</span> <span class="message-info">Opulent-X Realm (OXRM)</span> <span class="message-time">Innovations</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-six">6</span> <span class="message-info">Opulent-X Gas Stations</span> <span class="message-time">Gas Pipeline</span>
+                                        <li><span class="message-serial message-cl-one">6</span> <span class="message-info">Opulent-X Gas Stations</span> <span class="message-time">Gas Pipeline</span>
                                         </li>
-                                        <li><span class="message-serial message-cl-six">7</span> <span class="message-info">Please Report here</span> <span class="message-time">09:00 pm</span>
+                                        <li><span class="message-serial message-cl-one">7</span> <span class="message-info">Please Report here</span> <span class="message-time">09:00 pm</span>
+                                        </li>
+                                        <li><span class="message-serial message-cl-one">7</span> <span class="message-info">Please Report here</span> <span class="message-time">09:00 pm</span>
+                                        </li>
+                                        <li><span class="message-serial message-cl-one">7</span> <span class="message-info">Please Report here</span> <span class="message-time">09:00 pm</span>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                            <div class="dashboard-line-chart shadow-reset mg-b-30">
-                                <div class="flot-chart dashboard-chart">
-                                    <canvas id="myChartsrs1" width="400" height="170"></canvas>
-                                </div>
+                        
 
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <div class="linechart-dash-rate">
-                                            <h2>$5,000</h2>
-                                            <p>OPXT</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <div class="linechart-dash-rate">
-                                            <h2>$7,000</h2>
-                                            <p>OXYN</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                                        <div class="linechart-dash-rate">
-                                            <h2>$3,000</h2>
-                                            <p>OPXR</p>
-                                        </div>
-                                    </div>
+                        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                            
+                            <div class="charts-single-pro shadow-reset nt-mg-b-30">
+                                <div class="alert-title">
+                                    <h2>Top 3 Retirement Token Performance</h2>
+                                    <p>Yes! We have created 3 amazing tokens and they are the world first token that work like a retirement investment porfolio. This is limited and only few slots are available. </p>
+                                </div>
+                                <div id="basic-chart">
+                                    <canvas id="top-retirement-token-chart"></canvas>
                                 </div>
                             </div>
                         </div>
@@ -1011,19 +1002,28 @@
                                     <p>Here are the </p>
                                 </div>
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-4">
                                         <div class="dashone-doughnut">
                                             <div id="sparklinedask1"></div>
-                                            <h3>Investment Assets</h3>
+                                            <h3>Investments</h3>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-4">
                                         <div class="dashone-doughnut">
                                             <div id="sparklinedask2"></div>
-                                            <h3>Innovation Assets</h3>
+                                            <h3>Innovations</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="dashone-doughnut">
+                                            <div id="sparklinedask3"></div>
+                                            <h3>Synergies</h3>
                                         </div>
                                     </div>
                                    
+                                </div>
+                                <div class="row">
+                                    
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
@@ -1043,34 +1043,13 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                            <div class="sparkline7-list stock-price-section shadow-reset nt-mg-b-30">
-                                <div class="sparkline7-hd">
-                                    <div class="main-spark7-hd">
-                                        <h1>Stock Price Report</h1>
-                                        <div class="sparkline7-outline-icon">
-                                            <span class="sparkline7-collapse-link"><i class="fa fa-chevron-up"></i></span>
-                                            <span><i class="fa fa-wrench"></i></span>
-                                            <span class="sparkline7-collapse-close"><i class="fa fa-times"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sparkline7-graph">
-                                    <div class="dashone-bar-small dashone-bar">
-                                        <span class="bar_dashboard">5,3,9,6,5,9,7,3,5,2,4,7,3,2,7,9,6,4,5,7,3,2,1,0,9,5,6,8,3,2,1</span>
-                                        <p>$505400055.00</p>
-                                    </div>
-                                    <div class="dashone-bar-heading">
-                                        <h2>ADN Stock Price Data!</h2>
-                                        <a href="#">Check the stock price!</a>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="sparkline11-list shadow-reset nt-mg-b-30">
                                         <div class="sparkline11-hd">
                                             <div class="main-sparkline11-hd">
-                                                <h1>Latest Comments</h1>
+                                                <h1>Realm Time</h1>
                                                 <div class="sparkline11-outline-icon">
                                                     <span class="sparkline11-collapse-link"><i class="fa fa-chevron-up"></i></span>
                                                     <span><i class="fa fa-wrench"></i></span>
@@ -1212,12 +1191,34 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="sparkline7-list stock-price-section shadow-reset nt-mg-b-30">
+                                <div class="sparkline7-hd">
+                                    <div class="main-spark7-hd">
+                                        <h1>Crypto Price Report</h1>
+                                        <div class="sparkline7-outline-icon">
+                                            <span class="sparkline7-collapse-link"><i class="fa fa-chevron-up"></i></span>
+                                            <span><i class="fa fa-wrench"></i></span>
+                                            <span class="sparkline7-collapse-close"><i class="fa fa-times"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sparkline7-graph">
+                                    <div class="dashone-bar-small dashone-bar">
+                                        <span class="bar_dashboard">5,3,9,6,5,9,7,3,5,2,4,7,3,2,7,9,6,4,5,7,3,2,1,0,9,5,6,8,3,2,1</span>
+                                        <p>$505400055.00</p>
+                                    </div>
+                                    <div class="dashone-bar-heading">
+                                        <h2>ADN Crypto Price Data!</h2>
+                                        <a href="#">Check the stock price!</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                             <div class="about-sparkline shadow-reset desplay-n-tablet-pro">
                                 <div class="sparkline-hd">
                                     <div class="main-spark-hd">
-                                        <h1>Project Timeline </h1>
+                                        <h1>High-level Roadmap </h1>
                                         <div class="outline-icon">
                                             <span class="collapse-link"><i class="fa fa-chevron-up"></i></span>
                                             <span><i class="fa fa-wrench"></i></span>
@@ -1230,13 +1231,13 @@
                                         <div class="col-lg-12">
                                             <div class="timeline-hd-main">
                                                 <div class="timeline-heading-admin">
-                                                    <h1>You have meeting today!</h1>
+                                                    <!-- <h2>You have meeting today!</h2> -->
                                                     <p><i class="fa fa-map-marker"></i> Meeting is on 6:00am. Check your schedule to see detail.</p>
                                                 </div>
                                                 <div class="mapcontainer">
-                                                    <div class="map">
+                                                    <!-- <div class="map">
                                                         <span>Alternative content for the map</span>
-                                                    </div>
+                                                    </div> -->
                                                     <div class="plotLegend"></div>
                                                 </div>
                                             </div>
@@ -1252,7 +1253,7 @@
                                         </div>
                                         <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12 timeline-adminpro-cn timeline-adminpro-bd-ct">
                                             <div class="timeline-content">
-                                                <h3>Managing Director at Leather Export</h3>
+                                                <h3>Network Launch</h3>
                                                 <p>Hope you all are doing good. We are one of manufacturer and supplier of Cow Crust and finished leather from USA. Please feel free to contact us if you have any queries.</p>
                                                 <div class="admin-timeline-graph">
                                                     <span data-diameter="40" class="updating-chart">2,5,9,6,5,9,7,3,5,2,5,3,9,6,5,8,7,8,5,2</span>
@@ -1342,7 +1343,7 @@
                             <div class="income-dashone-total income-monthly shadow-reset nt-mg-b-30 res-mg-t-30">
                                 <div class="income-title">
                                     <div class="main-income-head">
-                                        <h2>Income</h2>
+                                        <h2>Opulent-X Ether (OETH)</h2>
                                         <div class="main-income-phara">
                                             <p>Monthly</p>
                                         </div>
@@ -1367,7 +1368,7 @@
                             <div class="income-dashone-total orders-monthly shadow-reset nt-mg-b-30">
                                 <div class="income-title">
                                     <div class="main-income-head">
-                                        <h2>Orders</h2>
+                                        <h2>Opulent-X Utility Token (OXUT)</h2>
                                         <div class="main-income-phara order-cl">
                                             <p>Annual</p>
                                         </div>
@@ -1392,7 +1393,7 @@
                             <div class="income-dashone-total visitor-monthly shadow-reset nt-mg-b-30">
                                 <div class="income-title">
                                     <div class="main-income-head">
-                                        <h2>Visitor</h2>
+                                        <h2>Opulent-X Rewards</h2>
                                         <div class="main-income-phara visitor-cl">
                                             <p>Today</p>
                                         </div>
@@ -1444,374 +1445,9 @@
                 </div>
             </div>
             <!-- stockprice, feed area end-->
-            <!-- Data table area Start-->
-            <div class="admin-dashone-data-table-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="sparkline8-list shadow-reset">
-                                <div class="sparkline8-hd">
-                                    <div class="main-sparkline8-hd">
-                                        <h1>Projects Data Table</h1>
-                                        <div class="sparkline8-outline-icon">
-                                            <span class="sparkline8-collapse-link"><i class="fa fa-chevron-up"></i></span>
-                                            <span><i class="fa fa-wrench"></i></span>
-                                            <span class="sparkline8-collapse-close"><i class="fa fa-times"></i></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sparkline8-graph">
-                                    <div class="datatable-dashv1-list custom-datatable-overright">
-                                        <div id="toolbar">
-                                            <select class="form-control">
-                                                <option value="">Export Basic</option>
-                                                <option value="all">Export All</option>
-                                                <option value="selected">Export Selected</option>
-                                            </select>
-                                        </div>
-                                        <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true" data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
-                                            <thead>
-                                                <tr>
-                                                    <th data-field="state" data-checkbox="true"></th>
-                                                    <th data-field="id">ID</th>
-                                                    <th data-field="name" data-editable="true">Project</th>
-                                                    <th data-field="email" data-editable="true">Email</th>
-                                                    <th data-field="phone" data-editable="true">Phone</th>
-                                                    <th data-field="company" data-editable="true">Company</th>
-                                                    <th data-field="complete">Completed</th>
-                                                    <th data-field="task" data-editable="true">Task</th>
-                                                    <th data-field="date" data-editable="true">Date</th>
-                                                    <th data-field="price" data-editable="true">Price</th>
-                                                    <th data-field="action">Action</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>1</td>
-                                                    <td>Web Development</td>
-                                                    <td>admin@uttara.com</td>
-                                                    <td>+8801962067309</td>
-                                                    <td>Aber Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">1/6</span>
-                                                    </td>
-                                                    <td>10%</td>
-                                                    <td>Jul 14, 2018</td>
-                                                    <td>$5455</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>2</td>
-                                                    <td>Graphic Design</td>
-                                                    <td>fox@itpark.com</td>
-                                                    <td>+8801762067304</td>
-                                                    <td>Abitibi Inc.</td>
-                                                    <td class="datatable-ct"><span class="pie">230/360</span>
-                                                    </td>
-                                                    <td>70%</td>
-                                                    <td>fab 2, 2018</td>
-                                                    <td>$8756</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>3</td>
-                                                    <td>Software Development</td>
-                                                    <td>gumre@hash.com</td>
-                                                    <td>+8801862067308</td>
-                                                    <td>Acambis plc</td>
-                                                    <td class="datatable-ct"><span class="pie">0.42/1.461</span>
-                                                    </td>
-                                                    <td>5%</td>
-                                                    <td>Seb 5, 2018</td>
-                                                    <td>$9875</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>4</td>
-                                                    <td>Woocommerce</td>
-                                                    <td>kyum@frok.com</td>
-                                                    <td>+8801962066547</td>
-                                                    <td>ACLN Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Oct 10, 2018</td>
-                                                    <td>$3254</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>5</td>
-                                                    <td>Joomla</td>
-                                                    <td>jams@game.com</td>
-                                                    <td>+8801962098745</td>
-                                                    <td>ACS-Tech Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">200,133</span>
-                                                    </td>
-                                                    <td>80%</td>
-                                                    <td>Nov 20, 2018</td>
-                                                    <td>$58745</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>6</td>
-                                                    <td>Wordpress</td>
-                                                    <td>flat@yem.com</td>
-                                                    <td>+8801962254781</td>
-                                                    <td>ActFits.com Inc.</td>
-                                                    <td class="datatable-ct"><span class="pie">0.42,1.051</span>
-                                                    </td>
-                                                    <td>30%</td>
-                                                    <td>Aug 25, 2018</td>
-                                                    <td>$789879</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>7</td>
-                                                    <td>Ecommerce</td>
-                                                    <td>hasan@wpm.com</td>
-                                                    <td>+8801962254863</td>
-                                                    <td>ActivCard S.A.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>July 17, 2018</td>
-                                                    <td>$21424</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>8</td>
-                                                    <td>Android Apps</td>
-                                                    <td>ATM@devep.com</td>
-                                                    <td>+8801962875469</td>
-                                                    <td>Adecco S.A.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>June 11, 2018</td>
-                                                    <td>$78978</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>9</td>
-                                                    <td>Prestashop</td>
-                                                    <td>presta@Prest.com</td>
-                                                    <td>+8801962067524</td>
-                                                    <td>AEGON N.V.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>May 9, 2018</td>
-                                                    <td>$45645</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>10</td>
-                                                    <td>Game Development</td>
-                                                    <td>Dev@game.com</td>
-                                                    <td>+8801962067457</td>
-                                                    <td>Aerco Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>April 5, 2018</td>
-                                                    <td>$4564545</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>11</td>
-                                                    <td>Angular Js</td>
-                                                    <td>gular@angular.com</td>
-                                                    <td>+8801962067124</td>
-                                                    <td>Agrium Inc.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Dec 1, 2018</td>
-                                                    <td>$645455</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>12</td>
-                                                    <td>Opencart</td>
-                                                    <td>open@cart.com</td>
-                                                    <td>+8801962067587</td>
-                                                    <td>Air Canada</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Jan 6, 2018</td>
-                                                    <td>$78978</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>13</td>
-                                                    <td>Education</td>
-                                                    <td>john@example.com</td>
-                                                    <td>+8801962067471</td>
-                                                    <td>Alcan Inc.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Feb 6, 2016</td>
-                                                    <td>$456456</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>14</td>
-                                                    <td>Construction</td>
-                                                    <td>mary@example.com</td>
-                                                    <td>+8801962012457</td>
-                                                    <td>Alcatel</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Jan 6, 2016</td>
-                                                    <td>$87978</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>15</td>
-                                                    <td>Real Estate</td>
-                                                    <td>july@example.com</td>
-                                                    <td>+8801962067309</td>
-                                                    <td>Alstom</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Dec 1, 2016</td>
-                                                    <td>$454554</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>16</td>
-                                                    <td>Personal Regume</td>
-                                                    <td>john@example.com</td>
-                                                    <td>+8801962067306</td>
-                                                    <td>Altarex Corp.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>May 9, 2016</td>
-                                                    <td>$564555</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>17</td>
-                                                    <td>Admin Template</td>
-                                                    <td>mary@example.com</td>
-                                                    <td>+8801962067305</td>
-                                                    <td>Alvarion Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>June 11, 2016</td>
-                                                    <td>$454565</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>18</td>
-                                                    <td>FrontEnd</td>
-                                                    <td>july@example.com</td>
-                                                    <td>+8801962067304</td>
-                                                    <td>Amcor Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>May 9, 2015</td>
-                                                    <td>$456546</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>19</td>
-                                                    <td>Backend</td>
-                                                    <td>john@range.com</td>
-                                                    <td>+8801962067303</td>
-                                                    <td>Amdocs Ltd.</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Feb 9, 2014</td>
-                                                    <td>$564554</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>20</td>
-                                                    <td>Java Advance</td>
-                                                    <td>lamon@ghs.com</td>
-                                                    <td>+8801962067302</td>
-                                                    <td>Amersham plc</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>July 6, 2014</td>
-                                                    <td>$789889</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td></td>
-                                                    <td>21</td>
-                                                    <td>Jquery Advance</td>
-                                                    <td>hasad@uth.com</td>
-                                                    <td>+8801962067301</td>
-                                                    <td>Amvescap plc</td>
-                                                    <td class="datatable-ct"><span class="pie">2,7</span>
-                                                    </td>
-                                                    <td>15%</td>
-                                                    <td>Jun 6, 2013</td>
-                                                    <td>$4565656</td>
-                                                    <td class="datatable-ct"><i class="fa fa-check"></i>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Data table area End-->
+            <!-- <canvas id="myChart" style="width:100%;max-width:600px"></canvas> -->
         </div>
+
     </div>
     <!-- Footer Start-->
     <div class="footer-copyright-area">
@@ -1819,7 +1455,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-copy-right">
-                        <p>Copyright &#169; 2018 Colorlib All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                        <p>Copyright &#169; 2022 Opulent-X Blockchain All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -1863,6 +1499,8 @@
             </div>
         </div>
     </div>
+
+
     <!-- Chat Box End-->
     <!-- jquery
 		============================================ -->
@@ -1899,6 +1537,8 @@
 		============================================ -->
     <script src="js/flot/Chart.min.js"></script>
     <script src="js/flot/flot-active.js"></script>
+    <script src="js/charts/Chart.js"></script>
+    <script src="/js/charts/line-chart.js"></script>
     <!-- map JS
 		============================================ -->
     <script src="js/map/raphael.min.js"></script>
@@ -1917,9 +1557,92 @@
     <script src="js/data-table/bootstrap-table-resizable.js"></script>
     <script src="js/data-table/colResizable-1.5.source.js"></script>
     <script src="js/data-table/bootstrap-table-export.js"></script>
+
+    <!-- Opulent JS
+        ============================================ -->
+        <script src="js/charts/opulent-x/index-chart.js"></script>
+
+
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
+
+    <script>
+        var xValues = [100,200,300,400,500,600,700,800,900,1000];
+        
+        new Chart("myChart", {
+          type: "line",
+          data: {
+            labels: xValues,
+            datasets: [{ 
+              data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+              borderColor: "red",
+              fill: false
+            }, { 
+              data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+              borderColor: "green",
+              fill: false
+            }, { 
+              data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+              borderColor: "blue",
+              fill: false
+            }]
+          },
+          options: {
+            legend: {display: false}
+          }
+        });
+
+    //     new Chart("myChartx", {
+	// 	type: 'line',
+	// 	data: {
+	// 		labels: ["January", "February", "March", "April", "May", "June", "July"],
+	// 		datasets: [{
+	// 			label: "My First dataset",
+	// 			fill: false,
+    //             backgroundColor: '#303030',
+	// 			borderColor: '#303030',
+	// 			data: [3, -5, -2, 3, 9, 12, 19],
+	// 			yAxisID: "y-axis-1"
+    //         }, {
+    //             label: "My Second dataset",
+	// 			fill: false,
+    //             backgroundColor: '#03a9f4',
+	// 			borderColor: '#03a9f4',
+	// 			data: [-12, -3, -4, 6, 3, 7, -20],
+	// 			yAxisID: "y-axis-2"
+				
+	// 	}]
+	// 	},
+	// 	options: {
+	// 		responsive: true,
+	// 		hoverMode: 'index',
+	// 		stacked: false,
+	// 		title:{
+	// 			display: true,
+	// 			text:'Line Chart Multi Axis'
+	// 		},
+	// 		scales: {
+	// 			yAxes: [{
+	// 				type: "linear",
+	// 				display: true,
+	// 				position: "left",
+	// 				id: "y-axis-1",
+	// 			}, {
+	// 				type: "linear", 
+	// 				display: true,
+	// 				position: "right",
+	// 				id: "y-axis-2",
+	// 				gridLines: {
+	// 					drawOnChartArea: false,
+	// 				},
+	// 			}],
+	// 		}
+	// 	}
+	// });
+
+
+    </script>
 </body>
 
 </html>

@@ -936,7 +936,7 @@ ul.message-list-menu li .message-serial {
     padding: 2px 0px;
 }
 ul.message-list-menu li .message-serial.message-cl-one {
-    background: linear-gradient(to bottom, #ff9966 0%, #d75151 100%);
+    background: linear-gradient(to bottom, #0044cc  0%, #03a9f4  100%);
 }
 ul.message-list-menu li .message-serial.message-cl-two {
     background: linear-gradient(to bottom, #ad6c7c 0%, rgb(216, 0, 255) 100%);
@@ -1107,16 +1107,16 @@ ul.comment-action-st li a{
 /*  12.  Dashboard v.1.0 income
 /*----------------------------------------*/
 .income-monthly{
-	background:linear-gradient(to bottom, #b52ea4 0%, #f13800 100%);
+	background:linear-gradient(to bottom, #0044cc  0%, #03a9f4  100%);
 }
 .orders-monthly{
-	background:linear-gradient(to bottom, #ad6c7c 0%, rgb(216, 0, 255) 100%);
+	background:linear-gradient(to bottom, #0044cc  0%, #03a9f4  100%);
 }
 .visitor-monthly{
-	background:linear-gradient(to bottom, #039477 0%, #2dda7a 100%);
+	background:linear-gradient(to bottom, #0044cc  0%, #03a9f4  100%);
 }
 .user-monthly{
-	background:linear-gradient(to bottom, #b96f77 0%, #ca0e0e 100%);
+	background:linear-gradient(to bottom, #0044cc  0%, #03a9f4  100%);
 }
 .income-title{
 	padding:15px 20px;

@@ -29,6 +29,12 @@
             height: '80',
         sliceColors: ['#03a9f4', '#303030', '#ff9999']});
 
+	$("#sparklinedask3").sparkline([1,2, 2], {
+		type: 'pie',
+		width: '80',
+			height: '80',
+		sliceColors: ['#03a9f4', '#303030', '#ff9999']});
+
     $("#sparkline4").sparkline([34, 43, 43, 35, 44, 32, 15, 22, 46, 33, 86, 54, 73, 53, 12, 53, 23, 65, 23, 63, 53, 42, 34, 56, 76, 15, 54, 23, 44], {
         type: 'line',
         lineColor: '#03a9f4',
